@@ -1,6 +1,6 @@
 import random
 lvl = 0
-diffi = 10
+diffi = 10000
 guess = 0
 computer_guess = random.randint(1,diffi) #selects any number between 0 to 11
 
