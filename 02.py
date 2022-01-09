@@ -26,7 +26,7 @@ while 1>0:
         new_ans = ans.lower()
         if ans == 'yes':
             print("Okay let's play again!")
-            diffi += 10
+            diffi += 10000
             lvl += 1  #same as lvl = lvl + 1
             guess = 0
             computer_guess = random.randint(1,diffi)
